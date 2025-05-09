@@ -1,0 +1,38 @@
+# Compiled Python/Cython files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Cython compilation files
+*.so
+*.o
+*.c
+*.cpp
+*.html  # Cython can generate HTML annotation files
+
+# Build directories
+build/
+dist/
+*.egg-info/
+
+# Platform-specific files
+*.dll     # Windows
+*.dylib   # macOS
+
+# Cython temporary files
+.cache/
+
+# IDE files (optional)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Virtual environment (if you're using one)
+venv/
+env/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
